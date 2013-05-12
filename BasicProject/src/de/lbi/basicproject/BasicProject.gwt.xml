@@ -8,7 +8,7 @@
 <module rename-to='basicproject'>
   <!-- Inherit the core Web Toolkit stuff.                        -->
   <inherits name='com.google.gwt.user.User'/>
-
+  <inherits name='com.mvp4g.Mvp4gModule'/>
   <!-- Inherit the default GWT style sheet.  You can change       -->
   <!-- the theme of your GWT application by uncommenting          -->
   <!-- any one of the following lines.                            -->
@@ -16,9 +16,7 @@
   <!-- <inherits name='com.google.gwt.user.theme.standard.Standard'/> -->
   <inherits name='com.google.gwt.user.theme.chrome.Chrome'/>
   <!-- <inherits name='com.google.gwt.user.theme.dark.Dark'/>     -->
-  
   <!-- Other module inherits                                      -->
-
   <!-- Specify the app entry point class.                         -->
   <entry-point class='de.lbi.basicproject.client.BasicProject'/>
 
