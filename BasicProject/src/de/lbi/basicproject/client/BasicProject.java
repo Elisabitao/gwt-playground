@@ -475,6 +475,7 @@ public class BasicProject implements EntryPoint, ValueChangeHandler<String> {
 	 * This is the entry point method which will create the GUI and set up the History handling.
 	 */
 	public void onModuleLoad() {
+				
 		// Create the user interface
 		setUpGui();		
 		// Set up history management
